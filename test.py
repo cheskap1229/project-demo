@@ -1,5 +1,5 @@
-pip install matplotlib
-pip install --upgrade streamlit matplotlib
+!pip install matplotlib
+!pip install --upgrade streamlit matplotlib
 
 import streamlit as st
 import matplotlib.pyplot as plt
