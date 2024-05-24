@@ -31,6 +31,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 rand=np.random.normal(1, 2, size=20)
-fig, ax = plt.subplots()ax.hist(rand, bins=15)st.pyplot(fig)
+fig, ax = plt.subplots()
+ax.hist(rand, bins=15)
+st.pyplot(fig)
 
  # See https://www.datacamp.com/tutorial/streamlit to learn more about how to implement more streamlit features in-depth
