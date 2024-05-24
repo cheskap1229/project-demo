@@ -1,8 +1,8 @@
-!pip install matplotlib
-!pip install --upgrade streamlit matplotlib
+!pip install plotly
+#!pip install --upgrade streamlit matplotlib
 
 import streamlit as st
-import matplotlib.pyplot as plt
+#import matplotlib.pyplot as plt
 import numpy as np
 st.write("Hello, let's learn how to build a streamlit app together")
 
