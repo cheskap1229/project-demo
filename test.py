@@ -1,4 +1,4 @@
-!pip install plotly
+pip install plotly
 #!pip install --upgrade streamlit matplotlib
 
 import streamlit as st
