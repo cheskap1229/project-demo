@@ -1,3 +1,6 @@
+pip install matplotlib
+pip install --upgrade streamlit matplotlib
+
 import streamlit as st
 import matplotlib.pyplot as plt
 import numpy as np
@@ -8,6 +11,7 @@ st.write("Hello, let's learn how to build a streamlit app together")
 df = pd.read_csv("data/cc_rfm.csv")
 
 st.dataframe(df)
+
 df['trans_datetime'] = pd.to_datetime(df['trans_datetime'])
 
 # Extract the day and create a new column
